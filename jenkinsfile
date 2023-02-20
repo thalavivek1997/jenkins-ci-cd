@@ -26,7 +26,7 @@ node{
         withCredentials([string(credentialsId: 'Dockerhubcredentials', variable: '')]) {
     
 }
-        sh 'docker login -u aareez -p Steyn123$%^'
+        sh 'docker login -u aareez -p passwordhere'
         sh 'docker push mylandmarktech/spring-boot-mongo'
     }
     
